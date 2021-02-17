@@ -1,9 +1,9 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
 
-// Body Styles 
+// Body Styles
 body,
-html, 
+html,
 .body {
   background: #fff !important;
 }
@@ -24,7 +24,7 @@ html,
 }
 
 .color-primary {
-  color: #4B647D !important;
+  color: #4b647d !important;
 }
 
 .mt-10 {
@@ -37,7 +37,7 @@ html,
 
 hr {
   border: 0 !important;
-  background: #4B647D !important;
+  background: #4b647d !important;
   height: 1px !important;
 }
 
@@ -52,7 +52,7 @@ a {
 .hr {
   margin: 0 !important;
   font-size: 0 !important;
-  border-top: 1px solid #4B647D !important;
+  border-top: 1px solid #4b647d !important;
 }
 
 .mt-0 {
@@ -64,13 +64,13 @@ a {
 }
 
 .footer {
-  background: #EAEAEA !important;
+  background: #eaeaea !important;
   border-top-left-radius: 40px !important;
   border-top-right-radius: 40px !important;
 }
 
 .footer {
-  background: #EAEAEA !important;
+  background: #eaeaea !important;
   border-top-left-radius: 40px !important;
   border-top-right-radius: 40px !important;
 }
@@ -95,9 +95,6 @@ a {
   padding-left: 0 !important;
 }
 
-.custom-margin {
-  margin-top: 22px !important;
-  margin-right: 0 !important;
-  margin-left: 0 !important;
-  margin-bottom: 0 !important;
+.p-0 {
+  padding: 0 !important;
 }
