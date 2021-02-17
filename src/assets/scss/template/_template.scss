@@ -1,0 +1,103 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #fff !important;
+}
+
+.img-block {
+  margin: 0 !important;
+  border: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+}
+
+.img-full {
+  max-width: 600px !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.color-primary {
+  color: #4B647D !important;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+hr {
+  border: 0 !important;
+  background: #4B647D !important;
+  height: 1px !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.hr {
+  margin: 0 !important;
+  font-size: 0 !important;
+  border-top: 1px solid #4B647D !important;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.footer {
+  background: #EAEAEA !important;
+  border-top-left-radius: 40px !important;
+  border-top-right-radius: 40px !important;
+}
+
+.footer {
+  background: #EAEAEA !important;
+  border-top-left-radius: 40px !important;
+  border-top-right-radius: 40px !important;
+}
+
+.fz-14 {
+  font-size: 14px !important;
+}
+
+.fz-13 {
+  font-size: 13px !important;
+}
+
+.fz-12 {
+  font-size: 12px !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+.custom-margin {
+  margin-top: 22px !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+}

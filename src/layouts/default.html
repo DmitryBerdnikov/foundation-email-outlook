@@ -1,0 +1,107 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{root}}css/app.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{{subject}}</title>
+    <!-- <style> -->
+
+    <!--[if mso]>
+    <style type="text/css">
+        .color-primary {
+          color: #4B647D !important;
+        }
+
+        .mt-10 {
+          margin-top: 10px;
+        }
+
+        .fz-24 {
+          font-size: 24px;
+        }
+
+        hr {
+          border: 0 !important;
+          background: #4B647D !important;
+          height: 1px !important;
+        }
+
+        a {
+          text-decoration: none !important;
+        }
+
+        .m-0 {
+          margin: 0 !important;
+        }
+
+        .hr {
+          margin: 0 !important;
+          font-size: 0 !important;
+          border-top: 1px solid #4B647D !important;
+        }
+
+        .mt-0 {
+          margin-top: 0 !important;
+        }
+
+        .mt-20 {
+          margin-top: 20px !important;
+        }
+
+        .footer {
+          background: #EAEAEA !important;
+          border-top-left-radius: 40px !important;
+          border-top-right-radius: 40px !important;
+        }
+
+        .fz-14 {
+          font-size: 14px !important;
+        }
+
+        .fz-13 {
+          font-size: 13px !important;
+        }
+
+        .fz-12 {
+          font-size: 12px !important;
+        }
+
+        .text-uppercase {
+          text-transform: uppercase !important;
+        }
+
+        .pl-0 {
+          padding-left: 0 !important;
+        }
+
+        .custom-margin {
+          margin-top: 22px !important;
+          margin-right: 0 !important;
+          margin-left: 0 !important;
+          margin-bottom: 0 !important;
+        }
+    </style>
+    <![endif]-->
+  </head>
+  <body>
+    <span class="preheader">{{description}}</span>
+    <table class="body">
+      <tr>
+        <td class="center" align="center" valign="top">
+          <center>
+            {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened emails are created. --}}
+            {{> body}}
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  </body>
+</html>
+
